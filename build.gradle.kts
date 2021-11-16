@@ -38,6 +38,8 @@ dependencies {
     implementation("io.micrometer:micrometer-registry-prometheus:1.7.0")
     implementation("io.prometheus:simpleclient_spring_boot:0.10.0")
 
+    implementation("io.projectreactor.tools:blockhound:1.0.6.RELEASE")
+
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("io.projectreactor:reactor-test")
     testImplementation("org.springframework.kafka:spring-kafka-test")
